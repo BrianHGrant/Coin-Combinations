@@ -1,5 +1,3 @@
-require("pry")
-
 class String
   define_method(:coincombo) do
     change = self.to_i()
